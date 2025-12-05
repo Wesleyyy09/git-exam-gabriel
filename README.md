@@ -128,3 +128,6 @@ La différence entre le git revert et le git reset :
 git revert : annule le commit et revient sur le commit d'avant mais sans supprimer le commit, il permet de garder l'historique de base
 
 git reset : supprime le commit et revient sur le commit d'avant, il permet de réécrire l'historique
+
+
+et on a utilisé un git revert car c'est plus c'est plus propre, ça ne supprime pas l'historique. 
