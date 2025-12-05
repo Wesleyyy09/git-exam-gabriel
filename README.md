@@ -121,3 +121,10 @@ Vous devez :
 
 1. Revenir à l'état précédent avec `git reset` ou `git revert`.
 2. Expliquer la différence entre les deux commandes.
+
+
+La différence entre le git revert et le git reset :
+
+git revert : annule le commit et revient sur le commit d'avant mais sans supprimer le commit, il permet de garder l'historique de base
+
+git reset : supprime le commit et revient sur le commit d'avant, il permet de réécrire l'historique
